@@ -106,7 +106,7 @@ export default function Customers() {
             </div>
           </div>
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row ">
-            <Tabs value="all" className="w-full md:w-max mb-12 border border-zinc-900 rounded-lg ml-3 bg-zinc-100">
+            <Tabs value="all" className="w-full md:w-max mb-24 border border-zinc-900 rounded-lg ml-3 bg-zinc-100">
               <TabsHeader>
                 {TABS.map(({ label, value }) => (
                   <Tab key={value} value={value}>
